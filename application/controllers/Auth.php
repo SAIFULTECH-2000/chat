@@ -15,7 +15,8 @@
                 $clientID = '<YOUR_CLIENT_ID>';
                 $clientSecret = '<YOUR_CLIENT_SECRET>';
                 $redirectUri = 'http://localhost/message/';
-
+                //https://console.cloud.google.com/apis/dashboard
+                //get your client_id and your client secret at console.cloud.google
                 // create Client Request to access Google API
                 $client = new Google_Client();
                 $client->setClientId($clientID);
