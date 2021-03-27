@@ -12,10 +12,9 @@
                 //gmail
                 require_once 'vendor/autoload.php';
                 // init configuration
-                $clientID = '1044102452031-3jpbs3r60495ja13vpq36g47ab0jvp0u.apps.googleusercontent.com';
-                $clientSecret = 'CCJUlxCfcH5xessRgfRj3CPn';
+                $clientID = '<YOUR_CLIENT_ID>';
+                $clientSecret = '<YOUR_CLIENT_SECRET>';
                 $redirectUri = 'http://localhost/message/';
-
 
                 // create Client Request to access Google API
                 $client = new Google_Client();
